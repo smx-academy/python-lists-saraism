@@ -74,8 +74,8 @@ while True:
         pass
     else:
         break
-print(p)
-print(c)
+z=list(zip(p,c))
+print(z)
 print('Vkunpo za naplata imate', zbir_y, 'denari')
 pari=int(input('Kolku pari ke dadete?\n'))
 final=pari-zbir_y
